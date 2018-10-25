@@ -23,5 +23,8 @@ RUN npm install
 # Expose port from container so host can access 3000
 EXPOSE 3000
 
+# Expose port for chrome debugger
+EXPOSE 9229
+
 # Start the Node.js app on load
 # CMD [ "npm", "start" ]

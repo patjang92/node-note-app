@@ -1,0 +1,1 @@
+docker exec -it node-note-app /bin/bash
