@@ -1,14 +1,23 @@
 {
-  "name": "docker-node-app",
+  "name": "node-notes-app",
   "version": "1.0.0",
   "description": "A node.js app that runs inside a docker contianer but lives outside",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon -L index.js",
+    "start": "nodemon -L app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/patjang92/",
-  "keywords": ["docker", "nodejs", "dev", "hotreloading"],
+  "keywords": [
+    "docker",
+    "nodejs",
+    "dev",
+    "hotreloading"
+  ],
   "author": "Arvind Ravulavaru <arvind.ravulavaru@gmail.com> (http://thejackalofjavascript.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "yargs": "^12.0.2"
+  }
 }
